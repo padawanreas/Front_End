@@ -1,0 +1,85 @@
+
+.nav-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: -40px;
+}
+.nav-flex li,.nav-flex a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-family: "Anton";
+  color:#0f7a8c;
+
+}
+.nav-flex{
+  padding: 25px 50px 25px 100px auto;
+  border-top: 3px solid #0f7a8c;
+  border-bottom: 3px solid #0f7a8c;
+
+}
+.name-logo {
+ margin-right: auto;
+}
+.avatar{
+  left: 350px;
+  width: 45px;
+  float: right;
+}
+.img-flex{
+  flex: 1;
+}
+li a:hover{
+  color: red;
+}
+div.content{
+  padding: 25px 50px 25px 100px auto;
+  margin-top:40px;
+
+}
+h2{
+  margin-top:-150px;
+  text-align: center;
+  color: #0c4a63;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-basis: 100%;
+  margin-top: 150px;
+
+}
+.article img {
+
+  height: 30%;
+}
+.article p {
+
+  text-align: justify;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer{
+  margin-top: 15px;
+  border-top: 3px solid #0f7a8c;
+  border-bottom: 3px solid #0f7a8c;
+
+}
+footer p{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color:  #0f7a8c;
+  font-size: 20px;
+}
+footer ul{
+
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
